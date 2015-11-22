@@ -1,0 +1,189 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+ .icon-block:hover{
+	border-bottom: 4px solid black;
+	cursor: pointer;
+	height: 310px;
+}
+.z-depth-2{
+	height: 310px;
+}
+#icon-color{
+	color: black;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+h1{
+	color: rgba(2, 119, 189, 1.0);
+}
+#pasos i{
+  color: rgba(2, 119, 189, 1.0);
+}
+/*Login con facebook*/
+.border-b{
+	border-bottom: 1px solid #ccc;
+}
+.curs-click{
+	cursor: pointer;
+}
+#horario:active{
+	cursor: pointer;
+	box-shadow: 0px 1px 10px #888888;
+}
+p.light{
+	text-align: center;
+}
+.active{
+	box-shadow: 0px 1px 10px #888888;
+}
+
+.color-blue{
+	color: #0277bd;
+}
+
+.bck-blue{
+	background: #0277bd;
+}
+a#download-button {
+    z-index: -1;
+}
+.black-bck{
+	background: #212121;
+}
+nav{
+	padding: 1% 0% 6%;
+	background-color: #212121;
+	position: fixed;
+}
+nav ul a{
+	font-size: 1.2em;
+	padding: 0 30px;
+}
+nav ul a:hover{
+	color: rgba(2, 119, 189, 1.0);
+}
+li.login{
+  border: 2px solid white;
+  border-radius: 6px;
+}
+li.login:hover{
+	background-color: rgba(2, 119, 189, 1.0);
+}
+li.login a:hover{
+	color: white;
+}
+
+/*caja*/
+.bg-white{
+	background-color: #CCCCCC;
+	padding: 8% 5%;
+}
+.bg-white .button{
+	margin: 3%;
+}
+.bg-black{
+	background-color: black;
+	padding: 5%;
+	color: white;
+}
+.section-gray{
+	background-color: rgb(244, 244, 244);
+	padding: 10%;
+	text-align: center;
+}
+.bg-white p{
+	padding: 4%;
+	border-bottom: 1px solid #888;
+	color: #888;
+}
+.bg-turquoise{
+	background-color: #0277bd;
+	padding: 5%;
+}
+.box{
+	padding-bottom: 5%;
+}
+.box h3{
+	padding-top: 3%;
+	font-size: 1.5em;
+}
+.box p{
+	padding: 0% 0% 0%;
+}
+.box a{
+	background-color: black;
+	padding: 3% 10%;
+}
+.box a:hover{
+	color: white;
+}
+h2.f-400 {
+    margin-top: 5%;
+    color: rgba(2, 119, 189, 1.0);
+}
+.comments img{
+	border-radius: 100%;
+	width: 10%;
+}
+.comments h2{
+	padding: 3%;
+}
+.comments p{
+	padding: 2%;
+}
+.mg-t{
+	margin-top: 5%;
+}
+.mg-b{
+	margin-bottom: 5%;
+}
+.pd-t{
+	padding-top: 10%;
+}
+.text-center{
+	text-align: center;
+}
+.text-white{
+	color: white;
+}
+/*Actividades*/
+.actividades{
+	margin-left: 10%;
+}
+.actividades h2{
+	color: rgba(2, 119, 189, 1.0);
+}
+.actividades i{
+	font-size: 5em;
+}
+/*Footer*/
+footer{
+	margin-top: 5%;
+	background-color: #212121;
+	padding: 5% 0%;
+}
+footer.footer-copyright{
+	color: #0277bd;
+}
+footer .redes a i{
+	font-size: 1.3em;
+	border: 2px solid white;
+	padding: 5% 6%;
+	color: white;
+}
+footer .redes a i:hover{
+	background-color: rgba(2, 119, 189, 1.0);
+	color: black;
+}
+footer .redes{
+  margin: 10% 2% 0% 0%;
+}
